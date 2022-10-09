@@ -1,6 +1,6 @@
 # WorkOrder
 
-Just simple table with work orders with search input.
+Just simple table with work orders and search input.
 This project was created with Angular version 12.2.12.
 
 ##  The Software you need

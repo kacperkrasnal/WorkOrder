@@ -1,27 +1,40 @@
-# FriendlySolution
+# WorkOrder
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.
+Just simple table with work orders with search input.
+This project was created with Angular version 12.2.12.
 
-## Development server
+##  The Software you need
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<h4>Install nodejs from <a href="https://nodejs.org/en/">nodejs.org</a></h4>
+<h4>If u don't have code editor install <a href="https://www.jetbrains.com/pycharm/">PyCharm</a> or <a href="https://code.visualstudio.com">Visual Studio Code</a></h4>
 
-## Code scaffolding
+## Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<h4>1. Clone repository to your folder</h4>
 
-## Build
+```ps
+git clone https://github.com/kacperkrasnal/WorkOrder.git
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<h4>2. Go to WorkOrder folder.</h4>
 
-## Running unit tests
+```ps
+cd .\WorkOrder\
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<h4>3. Install npm packages with following command</h4>
 
-## Running end-to-end tests
+```ps
+npm install
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<h4>4. Run server </h4>
 
-## Further help
+```ps
+ng serve
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Usage
+App fetching data from data.json mimic API.
+Creates and visualizes table of tasks - work orders.
+There is also search bar to search by description of a task.
